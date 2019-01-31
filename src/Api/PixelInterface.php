@@ -2,7 +2,6 @@
 
 namespace Pixela\Api;
 
-
 interface PixelInterface
 {
 
@@ -13,5 +12,4 @@ interface PixelInterface
     public function getDateTime();
 
     public function getOptionalData();
-
 }

@@ -2,7 +2,6 @@
 
 namespace Pixela\Api;
 
-
 class Pixel extends Api implements PixelInterface
 {
     /**

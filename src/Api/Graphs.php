@@ -178,8 +178,11 @@ class Graphs extends Api implements GraphsInterface
      */
     public function getURL()
     {
-        return sprintf(Api::API_BASE_ENDPOINT . '/users/%s/graphs/%s.html',
-            $this->getClient()->getUsername(), $this->getId());
+        return sprintf(
+            Api::API_BASE_ENDPOINT . '/users/%s/graphs/%s.html',
+            $this->getClient()->getUsername(),
+            $this->getId()
+        );
     }
 
     /**

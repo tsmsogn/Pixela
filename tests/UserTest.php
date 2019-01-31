@@ -51,7 +51,6 @@ class UserTest extends PixelaTestCase
         try {
             $user->update('thisisnewsecret');
         } catch (\Exception $e) {
-
         }
 
         $this->assertEquals(self::TOKEN, $user->getClient()->getToken());

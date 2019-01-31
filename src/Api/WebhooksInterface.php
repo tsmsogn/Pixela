@@ -2,7 +2,6 @@
 
 namespace Pixela\Api;
 
-
 interface WebhooksInterface
 {
     public function getGraphID();
