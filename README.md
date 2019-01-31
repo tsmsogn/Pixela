@@ -72,7 +72,7 @@ $graph->getURL();
 
 ### Pixel
 
-```
+```php
 <?php
 $pixel = $client->api('Pixel');
 
