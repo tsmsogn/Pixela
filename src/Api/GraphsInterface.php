@@ -2,7 +2,7 @@
 
 namespace Pixela\Api;
 
-interface GraphInterface
+interface GraphsInterface
 {
     public function getId();
 

@@ -2,7 +2,7 @@
 
 namespace Pixela\Api;
 
-class Graphs extends Api implements GraphInterface
+class Graphs extends Api implements GraphsInterface
 {
     /**
      * @var string
@@ -69,7 +69,7 @@ class Graphs extends Api implements GraphInterface
     }
 
     /**
-     * @return \Pixela\Api\GraphInterface[]
+     * @return \Pixela\Api\GraphsInterface[]
      * @throws \GuzzleHttp\Exception\GuzzleException
      */
     public function get()

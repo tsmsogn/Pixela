@@ -2,7 +2,7 @@
 
 namespace Pixela\Api;
 
-class Webhooks extends Api implements WebhookInterface
+class Webhooks extends Api implements WebhooksInterface
 {
     /**
      * @var string
@@ -47,7 +47,7 @@ class Webhooks extends Api implements WebhookInterface
     }
 
     /**
-     * @return \Pixela\Api\WebhookInterface[]
+     * @return \Pixela\Api\WebhooksInterface[]
      * @throws \GuzzleHttp\Exception\GuzzleException
      */
     public function get()
