@@ -2,6 +2,12 @@
 
 Pixela client for PHP
 
+## Installation
+
+```shell
+composer require tsmsogn/pixela
+```
+
 ## Usage
 
 ### Client
