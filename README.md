@@ -2,6 +2,10 @@
 
 [Pixela](https://pixe.la/) client for PHP
 
+## Requirements
+
+- PHP 5.5 or later
+
 ## Installation
 
 ```shell
@@ -48,7 +52,7 @@ $graph->setId('test-graph')
 $graph->create();
 
 // Get graphs
-$graphs = $graph->get();
+$graph->get();
 
 // Get SVG
 $graph->getSVG()
