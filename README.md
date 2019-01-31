@@ -1,6 +1,6 @@
 # Pixela [![Build Status](https://travis-ci.org/tsmsogn/Pixela.svg?branch=master)](https://travis-ci.org/tsmsogn/Pixela) [![codecov](https://codecov.io/gh/tsmsogn/Pixela/branch/master/graph/badge.svg)](https://codecov.io/gh/tsmsogn/Pixela) [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/tsmsogn/Pixela/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/tsmsogn/Pixela/?branch=master)
 
-Pixela client for PHP
+[Pixela](https://pixe.la/) client for PHP
 
 ## Installation
 
