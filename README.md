@@ -37,7 +37,7 @@ $user->delete();
 
 ```php
 <?php
-$graph = $this->client->api('Graphs');
+$graph = $client->api('Graphs');
 
 // Create graph
 $graph->setId('test-graph')
@@ -64,7 +64,7 @@ $graph->setName('new-test-graph')
 $graph->update();
 
 // Delete graph
-$this->assertTrue($graph->delete());
+$graph->delete();
 
 // Get URL
 $graph->getURL();
@@ -74,7 +74,7 @@ $graph->getURL();
 
 ```
 <?php
-$pixel = $this->client->api('Pixel');
+$pixel = $client->api('Pixel');
 
 // Create pixel
 $pixel->setGraphID('test-graph')
@@ -104,7 +104,7 @@ $pixel->delete();
 
 ```php
 <?php
-$webhook = $this->client->api('Webhooks');
+$webhook = $client->api('Webhooks');
 
 // Create webhook
 $webhook->setGraphID('test-graph')
