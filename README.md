@@ -27,7 +27,7 @@ $user = $client->api('User');
 $user->create();
         
 // Update user
-$updated = $user->update('thisisnewsecret');
+$user->update('thisisnewsecret');
 
 // Delete user
 $user->delete();
