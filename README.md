@@ -2,6 +2,8 @@
 
 [Pixela](https://pixe.la/) client for PHP
 
+[![Pixela Test](https://pixe.la/v1/users/tsmsogn/graphs/pixela-test)](https://pixe.la/v1/users/tsmsogn/graphs/pixela-test.html)
+
 ## Requirements
 
 - PHP 5.5 or later
