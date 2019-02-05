@@ -7,37 +7,37 @@ class Graphs extends Api implements GraphsInterface
     /**
      * @var string
      */
-    public $id;
+    private $id;
 
     /**
      * @var string
      */
-    public $name;
+    private $name;
 
     /**
      * @var string
      */
-    public $unit;
+    private $unit;
 
     /**
      * @var string
      */
-    public $type;
+    private $type;
 
     /**
      * @var string
      */
-    public $color;
+    private $color;
 
     /**
      * @var string
      */
-    public $timezone = 'UTC';
+    private $timezone = 'UTC';
 
     /**
      * @var array
      */
-    public $purgeCacheURLs;
+    private $purgeCacheURLs;
 
     /**
      * @return bool

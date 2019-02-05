@@ -9,17 +9,17 @@ class Client implements ClientInterface
     /**
      * @var string
      */
-    public $username;
+    private $username;
 
     /**
      * @var string
      */
-    public $token;
+    private $token;
 
     /**
      * @var \GuzzleHttp\ClientInterface
      */
-    public $httpClient;
+    private $httpClient;
 
     /**
      * Client constructor.

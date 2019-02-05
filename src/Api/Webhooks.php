@@ -7,17 +7,17 @@ class Webhooks extends Api implements WebhooksInterface
     /**
      * @var string
      */
-    protected $graphID;
+    private $graphID;
 
     /**
      * @var string
      */
-    protected $type;
+    private $type;
 
     /**
      * @var string
      */
-    protected $webhookHash;
+    private $webhookHash;
 
     /**
      * @throws \GuzzleHttp\Exception\GuzzleException

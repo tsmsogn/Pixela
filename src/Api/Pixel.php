@@ -7,22 +7,22 @@ class Pixel extends Api implements PixelInterface
     /**
      * @var string
      */
-    protected $graphID;
+    private $graphID;
 
     /**
      * @var \DateTimeInterface
      */
-    protected $datetime;
+    private $datetime;
 
     /**
      * @var string
      */
-    protected $quantity;
+    private $quantity;
 
     /**
      * @var string
      */
-    protected $optionalData;
+    private $optionalData;
 
     /**
      * @return bool

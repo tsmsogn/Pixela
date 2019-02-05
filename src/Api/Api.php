@@ -9,7 +9,7 @@ abstract class Api implements ApiInterface
     /**
      * @var \Pixela\ClientInterface
      */
-    public $client;
+    private $client;
 
     /**
      * Client constructor.
